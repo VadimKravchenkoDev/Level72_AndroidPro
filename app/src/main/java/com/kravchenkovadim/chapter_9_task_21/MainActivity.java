@@ -28,16 +28,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Cat vaska = new Cat();
-        vaska.talk();
+
 
         Puma bagira = new Puma();
-        bagira.talk();
 
         Cat puma = new Puma();
-        puma.talk();
 
         Cat murzik = new Leon();
-        murzik.talk();
 
         Leon leon = new Leon();
 
@@ -48,5 +45,13 @@ public class MainActivity extends AppCompatActivity {
         cats.add(murzik);
         cats.add(leon);
 
+        Cat cat = cats.get(0);
+        Cat cat1 = cats.get(1);
+        Cat cat2 = cats.get(2);
+        Cat cat3 = cats.get(3);
+        Cat cat4 = cats.get(4);
+
+        Puma puma1 = (Puma) cats.get(1);
+        puma1.talk();
     }
 }
