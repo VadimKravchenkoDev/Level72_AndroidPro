@@ -16,7 +16,7 @@ public class Cat extends Animal{
     }
 
     public void talk() {
-        Log.d("talk", "Meow! My name is " + name + " and I'm " + age + " years old ");
+        Log.d("talk", "Meow! I'm cat. My name is " + name + " and I'm " + age + " years old ");
     }
 
 }

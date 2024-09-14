@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Puma bagira = new Puma();
         bagira.talk();
 
+        Cat puma = new Puma();
+        puma.talk();
 
+        Cat murzik = new Leon();
+        murzik.talk();
     }
 }

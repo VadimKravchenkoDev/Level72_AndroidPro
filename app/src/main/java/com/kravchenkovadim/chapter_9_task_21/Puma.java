@@ -5,6 +5,6 @@ import android.util.Log;
 public class Puma extends Cat {
 
     public void talk(){
-        Log.d("talk", "R-r-r! My name is " + name + " and I'm " + age + " years old ");
+        Log.d("talk", "R-r-r! I'm Puma. My name is " + name + " and I'm " + age + " years old ");
     }
 }
