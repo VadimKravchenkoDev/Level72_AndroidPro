@@ -11,10 +11,11 @@ public class Cat extends Animal{
         this.name = n;
     }
     public Cat(){
-        age =2 ;
+        age = 2 ;
         name = "Vaska";
     }
-    public void talk(){
+
+    public void talk() {
         Log.d("talk", "Meow! My name is " + name + " and I'm " + age + " years old ");
     }
 

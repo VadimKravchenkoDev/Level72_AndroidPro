@@ -24,31 +24,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        myCat = new Cat(4, "Puma");
+        Cat vaska = new Cat();
+        vaska.talk();
 
-        myCat.talk();
-
-        Cat murzik = new Cat(2, "Murza");
-
-        murzik.talk();
-        murzik.breathe();
-
-        Cat glasha = new Cat();
-        glasha.age = 1;
-        glasha.name = "Glasha";
-        glasha.numberOfLegs = 4;
-        Log.i("numberOfLeg", String.valueOf(glasha.numberOfLegs));
-        glasha.talk();
-
-        Puma puma = new Puma();
-        puma.breathe();
-        puma.talk();
-        puma.name = "Leo";
-        puma.isAlive = true;
-        Log.i("breathe", String.valueOf(puma.isAlive));
-        Log.i("breathe", "My name is " +
-                puma.name + " and " + puma.breathe());
-
+        Puma bagira = new Puma();
+        bagira.talk();
 
 
     }
