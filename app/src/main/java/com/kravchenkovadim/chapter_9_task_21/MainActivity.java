@@ -9,6 +9,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     Cat myCat;
@@ -35,5 +38,15 @@ public class MainActivity extends AppCompatActivity {
 
         Cat murzik = new Leon();
         murzik.talk();
+
+        Leon leon = new Leon();
+
+        ArrayList<Cat> cats = new ArrayList<>();
+        cats.add(vaska);
+        cats.add(bagira);
+        cats.add(puma);
+        cats.add(murzik);
+        cats.add(leon);
+
     }
 }
