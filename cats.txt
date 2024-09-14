@@ -1,0 +1,28 @@
+public  class Animals {
+  public void legs(){
+        System.out.println("Animals run");
+   }
+   
+   public static void main(String[] args) {
+   Cats leo = new Cats();
+    leo.legs();
+    FlyCats liza = new FlyCats();
+    liza.legs();
+    liza.toes();
+    liza.fly();
+  }
+}
+
+
+class Cats extends Animals{
+    
+    public void toes(){
+        System.out.println("on the toes");
+    }
+}
+
+class FlyCats extends Cats{
+    public void fly(){
+        System.out.println("and fly");
+    }
+}
