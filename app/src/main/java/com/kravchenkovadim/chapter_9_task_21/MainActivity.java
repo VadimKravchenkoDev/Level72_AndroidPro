@@ -27,31 +27,14 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Cat vaska = new Cat();
+
+        Cat leon = new Cat();
+        Cat leon2 = new Cat();
+        Cat puma = new Cat();
+        Puma puma1 = new Puma();
 
 
-        Puma bagira = new Puma();
+        Log.d("count", String.valueOf(Cat.count));
 
-        Cat puma = new Puma();
-
-        Cat murzik = new Leon();
-
-        Leon leon = new Leon();
-
-        ArrayList<Cat> cats = new ArrayList<>();
-        cats.add(vaska);
-        cats.add(bagira);
-        cats.add(puma);
-        cats.add(murzik);
-        cats.add(leon);
-
-        Cat cat = cats.get(0);
-        Cat cat1 = cats.get(1);
-        Cat cat2 = cats.get(2);
-        Cat cat3 = cats.get(3);
-        Cat cat4 = cats.get(4);
-
-        Puma puma1 = (Puma) cats.get(1);
-        puma1.talk();
     }
 }
